@@ -1,0 +1,57 @@
+header{
+    border: solid red;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    width: 8vw;
+    p{
+        font-size: 1rem;
+        color: black;
+    }
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.containerCards{
+    
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+}
+
+.card1{
+    width: 15vw;
+    height: 20vh;
+    border: solid gray;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.card2{
+    width: 15vw;
+    height: 20vh;
+    border: solid gray;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.card3{
+    width: 15vw;
+    height: 20vh;
+    border: solid gray;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
