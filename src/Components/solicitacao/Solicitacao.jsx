@@ -1,3 +1,5 @@
+import NaveBar from "../navebar/NaveBar.jsx"
+
 function solicitacao(){
     return(
       <>
@@ -7,3 +9,6 @@ function solicitacao(){
   };
   
   export default solicitacao;
+
+
+
