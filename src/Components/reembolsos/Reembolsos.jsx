@@ -74,7 +74,7 @@ function Reembolsos() {
 
         <section className={styles.containerSistema}>
           <img className={styles.imgSistema} src={Sistema} alt="" />
-          <a href="">Sistema atualizado</a>
+          <a className={styles.sistemaAtualizado} href="">Sistema atualizado</a>
         </section>  
           
           

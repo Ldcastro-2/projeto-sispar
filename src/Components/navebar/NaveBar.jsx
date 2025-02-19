@@ -14,33 +14,32 @@ function NaveBar() {
 
   return (
     <nav className={styles.naveBarEstilo}>
-      <button>
+
+      <button className={styles.imgFechar}>
         <img src={ImgFechar} alt="Botão abrir e fechar" />
       </button>
 
       <section className={styles.sectionNaveBar}>
-        <div>
-        <button className={styles.buttonPerfil} onClick={() => {navigate("/reembolsos");}}>
-           <img src={ImgPerfil} alt="Botão Perfil" />   
-          </button>  
-
-
-          <button onClick={() => {navigate("/reembolsos");}}>
+        <img src={ImgPerfil} alt="Botão Perfil" />   
+          
+      <div className= {styles.divButtonNavebar} >
+  
+        <button className={styles.imgHome} onClick={() => {navigate("/reembolsos");}}>
            <img src={BHome} alt="Botão abrir e fechar" />   
           </button>  
-          
-          <button onClick={() => {navigate("/solicitacao");}}>
-            
+
+          <button className={styles.imgReembolso} onClick={() => {navigate("/solicitacao");}}>
             <img src={BReembolso} alt="Botão abrir e fechar" />
           </button>     
           
-          <button onClick={() => {navigate("/reembolsos");}}>
+          <button className={styles.imgPesquisa} onClick={() => {navigate("/reembolsos");}}>
             <img src={BPesquisa} alt="Botão abrir e fechar" />
           </button>
             
-         <button onClick={() => {navigate("/solicitacao");}}>
+         <button className={styles.imgHistorico} onClick={() => {navigate("/solicitacao");}}>
             <img src={BHistórico} alt="Botão abrir e fechar" />
           </button>
+          
         </div>
 
       </section>

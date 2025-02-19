@@ -5,6 +5,7 @@ import Solicitacao from "./Components/solicitacao/Solicitacao.jsx";
 
 import "./global.scss";
 
+
 function App() {
   return (
     <BrowserRouter>

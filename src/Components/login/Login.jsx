@@ -35,8 +35,10 @@ function Login() {
             <a href="a" className={styles.forgotPassword}>Esqueci minha senha</a>
 
           <div className= {styles.boxButton}>
+
             <button onClick={irParaReembolsos} className={styles.buttonPrimary} >Entrar</button>
             <button className={styles.buttonSecondary}>Criar Conta</button>
+            
           </div>
         </form>
       </section>

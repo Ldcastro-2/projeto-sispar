@@ -3,13 +3,11 @@
 }
 header{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
-    //border: solid red;
     width: 6vw;
     height: 3vh;
     
-   
     p{
         font-size: 1rem;
         color: #23282F;
@@ -17,16 +15,17 @@ header{
 }
 
 .mainReembolsos{
+    width: 70vw;
     height: 95vh;
-    //background-color: greenyellow;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
+    align-items: center;
     padding-left: 30rem ;
 
     h1{
         font-size: 2rem;
-        font-weight: 700;
+        font-weight: 600;
         color: #23282F;
         font-weight: bold;
        }
@@ -38,14 +37,12 @@ header{
     }
 
 
-
-
 .containerCards{
     
     display: flex;
     justify-content: space-between;
-    width: 70%;
-    
+    width: 100%;
+    align-items: center;
 }
 
 .card1{
@@ -107,13 +104,14 @@ header{
 
 .containerDados{
     border: solid #CBD4E1;
-    width: 70%;
+    width: 100%;
     height: 10vh;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
     border-radius: 6px;
     margin-top: 1rem;
+
     div{
         
         display: flex;
@@ -149,11 +147,10 @@ header{
     display: flex;
     border: solid #0844C4;
     display: flex;
-    justify-content: space-between;
-    margin-top: 2rem;
-    
+    justify-content: space-evenly;
+    margin-top: 1rem;
+   
 }
-
 
 
 
