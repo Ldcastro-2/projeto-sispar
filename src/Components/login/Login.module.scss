@@ -67,11 +67,16 @@ input{
 }
 
 Button{
-    width: 5vw;
-    height: 5vh;
+    width: 5.5vw;
+    height: 4vh;
     border-radius: 6px;
-    font-family: 1rem;
+    font-family: "inter", sans-serif;
+    font-size: 1rem;
+    font-weight: 700;
+    color: #fff;
+    border: none;
     font-weight: bold;
+   
 }
 
 .buttonPrimary{
@@ -80,18 +85,18 @@ Button{
     border: #001a3d;
 
     &:hover {
-        background-color:#001a3d ;
+        background-color:#012049;
         transform: scale(1.05);
     }
 }
 
 .buttonSecondary{
-    background-color: #0056b3; /* Cor preenchendo todo o botão */
+    background-color: #00bedd; /* Cor preenchendo todo o botão */
     color: white;
-    border: #0056b3 ;
+    border: #00bedd ;
 
     &:hover {
-        background-color: #0056b3;
+        background-color:#00bedd ;
         transform: scale(1.05); 
     }
 

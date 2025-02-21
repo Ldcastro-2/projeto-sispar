@@ -13,42 +13,45 @@ function NaveBar() {
   const navigate = useNavigate();
 
   return (
-    <nav className={styles.naveBarEstilo}>
-
-      <button className={styles.imgFechar}>
-        <img src={ImgFechar} alt="Botão abrir e fechar" />
+    <nav className={styles.naveBar}>
+      <button className={styles.botaoMenu}> 
+        <img src={ImgFechar} alt="Botão Menu" />
       </button>
 
-      <section className={styles.sectionNaveBar}>
-        <img src={ImgPerfil} alt="Botão Perfil" />   
-          
-      <div className= {styles.divButtonNavebar} >
-  
-        <button className={styles.imgHome} onClick={() => {navigate("/reembolsos");}}>
-           <img src={BHome} alt="Botão abrir e fechar" />   
+    <div className= {styles.divNavegacao} >
+      <img  className={styles.user}src={ImgPerfil} alt="Botão Perfil" /> 
+        
+          <button className={styles.botaoHome} onClick={() => {navigate("/reembolsos");}}>
+           <img  src={BHome} alt="Botão Home" />   
           </button>  
 
-          <button className={styles.imgReembolso} onClick={() => {navigate("/solicitacao");}}>
-            <img src={BReembolso} alt="Botão abrir e fechar" />
+          <button className={styles.bitaoReembolso} onClick={() => {navigate("/solicitacao");}}>
+            <img src={BReembolso} alt="Botão Reembolso" />
           </button>     
           
-          <button className={styles.imgPesquisa} onClick={() => {navigate("/reembolsos");}}>
-            <img src={BPesquisa} alt="Botão abrir e fechar" />
+          <button className={styles.botaoPesquisa} onClick={() => {navigate("/reembolsos");}}>
+            <img src={BPesquisa} alt="Botão Pesquisar" />
           </button>
             
-         <button className={styles.imgHistorico} onClick={() => {navigate("/solicitacao");}}>
-            <img src={BHistórico} alt="Botão abrir e fechar" />
-          </button>
+         <button className={styles.botaoHistorico} onClick={() => {navigate("/solicitacao");}}>
+            <img src={BHistórico} alt="Botão Historico" />
+          </button> 
           
-        </div>
-
-      </section>
-
-      <button className={styles.buttonSair} onClick={() => {navigate("/");}}>
+      </div>
+      
+    <button className={styles.buttonSair} onClick={() => {navigate("/");}}>
         <img src={BSair} alt="Botão sair" />
       </button>
+        
     </nav>
   );
 }
 
-export default NaveBar;
+export default NaveBar;    
+          
+         
+        
+      
+
+
+      

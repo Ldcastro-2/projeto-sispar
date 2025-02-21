@@ -1,9 +1,11 @@
 .body{
     display: flex;
+    
 }
-header{
+
+.headerReembolso{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
     width: 6vw;
     height: 3vh;
@@ -11,6 +13,7 @@ header{
     p{
         font-size: 1rem;
         color: #23282F;
+        
     }
 }
 
@@ -19,22 +22,22 @@ header{
     height: 95vh;
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
-    padding-left: 30rem ;
+    padding-left: 30rem;
 
     h1{
         font-size: 2rem;
         font-weight: 600;
         color: #23282F;
         font-weight: bold;
-       }
+    }
     
         p{
             font-size: 1rem;
             color: #23282F;
         }
-    }
+}
 
 
 .containerCards{
@@ -43,6 +46,7 @@ header{
     justify-content: space-between;
     width: 100%;
     align-items: center;
+
 }
 
 .card1{
@@ -151,6 +155,9 @@ header{
     margin-top: 1rem;
    
 }
+
+
+
 
 
 

@@ -16,13 +16,14 @@ function Reembolsos() {
     <div className={styles.body}>
       <NaveBar />
 
-      <header>
+      <header className={styles}>
         <img src={Home} alt="Casa da header" />
         <img src={Vector} alt="Seta da header" />
         <p>Reembolsos</p>
       </header>
 
       <main className={styles.mainReembolsos}>
+        
         <h1>Sistema de Reembolsos</h1>
         <p>
           Solicite novos pedidos de reembolso, visualize solicitações em análise
