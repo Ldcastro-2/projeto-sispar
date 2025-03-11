@@ -1,4 +1,4 @@
-main {
+.mainLogin{
   display: flex;
   align-items: center;
 }
@@ -37,12 +37,12 @@ h1{
     text-align: center;
 }
 
-p{
+.pLoging{
     color: blue;
     font-size: 1rem;
 }
 
-form{
+.fromLogin{
     height: 20vh;
     //border: solid red;
     display: flex;

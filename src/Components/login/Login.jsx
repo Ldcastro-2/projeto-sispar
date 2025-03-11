@@ -14,7 +14,7 @@ function Login() {
 
 
   return (
-    <main>
+    <main className={styles.mainLogin}>
       <section className={styles.containerLogin}>
         <img src={Capa} alt="Foto de um navio cargueiro" />
       </section>
@@ -24,10 +24,10 @@ function Login() {
           <img src={Logo} alt="Logo da wilson Sons" />
           <h1>Boas vindas ao Novo Portal Sispar</h1>
 
-          <p>Sistema de emissão de Boletos e Parcelamento</p>
+          <p className={styles.pLoging}>Sistema de emissão de Boletos e Parcelamento</p>
         </div>
 
-        <form action="">
+        <form className={styles.fromLogin} action="">
           <input type="email" name="email" id="email" placeholder="Email" />
 
           <input

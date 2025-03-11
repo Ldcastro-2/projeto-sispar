@@ -16,16 +16,18 @@ function Reembolsos() {
     <div className={styles.body}>
       <NaveBar />
 
-      <header className={styles}>
+      <div className={styles.divReembolso}>
+      <header className={styles.headerReembolso}>
         <img src={Home} alt="Casa da header" />
         <img src={Vector} alt="Seta da header" />
         <p>Reembolsos</p>
       </header>
+      
 
       <main className={styles.mainReembolsos}>
         
-        <h1>Sistema de Reembolsos</h1>
-        <p>
+        <h1 className={styles.tituloReembolso}>Sistema de Reembolsos</h1>
+        <p className={styles.pReembolso}>
           Solicite novos pedidos de reembolso, visualize solicitações em análise
           e todo o histórico.
         </p>
@@ -54,7 +56,7 @@ function Reembolsos() {
             <p>Solicitados</p>
           </div>  
 
-          <div>
+          <div className={styles.divDadosReembolso}>
             <img className={styles.imgAnalises} src={NumeroAnálises} alt="" />
             <h4>74</h4>
             <p>Em análise</p>
@@ -78,11 +80,11 @@ function Reembolsos() {
           <a className={styles.sistemaAtualizado} href="">Sistema atualizado</a>
         </section>  
           
-          
-        
-        
+     
       </main>
-    </div>
+      </div>
+      </div>
+    
   );
 }
 
