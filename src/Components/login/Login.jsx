@@ -22,7 +22,7 @@ function Login() {
       <section className={styles.containerForm}>
         <div className={styles.boxLogo}>
           <img src={Logo} alt="Logo da wilson Sons" />
-          <h1>Boas vindas ao Novo Portal Sispar</h1>
+          <h1 className={styles.h1Login}>Boas vindas ao Novo Portal Sispar</h1>
 
           <p className={styles.pLoging}>Sistema de emissão de Boletos e Parcelamento</p>
         </div>
